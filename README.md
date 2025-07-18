@@ -24,11 +24,13 @@ The dataset used is typically the *Breast Cancer Wisconsin (Diagnostic) Dataset*
 - Target: diagnosis — M = Malignant, B = Benign
 
 ---
-
+## 🌐 Live Demo
+ https://cancer-detection-ml-project-gbt6cffzmp6h5sswd6ctfg.streamlit.app/
 ## 🔧 Libraries Used
 
 ```python
 import pandas as pd
+import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
