@@ -11,6 +11,8 @@ This project implements a *Logistic Regression* model to detect cancer based on 
 - *Target column*: diagnosis
 - *Model used*: LogisticRegression(solver='liblinear')
 - *Preprocessing*: MinMaxScaler, Train-Test Split
+- *App framework: Streamlit
+- *Depoyment: Streamlit Cloud
 
 ---
 
