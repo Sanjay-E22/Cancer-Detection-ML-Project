@@ -1,6 +1,10 @@
 import streamlit as st
 import numpy as np
 import pickle
+import os
+
+st.write("contents of root:",os.listdir("."))
+st.write("contents of model folder:",os.listdir("model"))
 
 # Load model
 with open("model/cancer_model.pkl", "rb") as f:
